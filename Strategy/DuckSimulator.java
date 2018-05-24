@@ -9,8 +9,10 @@ public class DuckSimulator
 		duck.display();
 		duck.performFly();
 		duck.performQuack();
+		
 		duck.setFlyBehavior(new FlyWithoutWings());
 		duck.setQuackBehavior(new Quack());
+		
 		duck.swim();
 		duck.display();
 		duck.performFly();
